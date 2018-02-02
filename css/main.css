@@ -1,0 +1,125 @@
+body{
+	background-color: #E53935;
+}
+#chatContainer{
+	display: none;
+	margin-right: 20px;
+}
+
+#userContainer{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 100px;
+  /*background-color: #ccc;*/
+  border-radius: 3px;
+}
+
+#submit_chatname_button{
+	margin-left: 100px;
+}
+
+#profil_bloc{
+	float: right;
+}
+
+#chat_image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px
+}
+
+
+
+/*#chat_area{
+	background-color: yellow;
+}*/
+
+#online_users_area{
+	background-color: red;
+}
+
+#chat_messages{
+	/*height: 400px;
+	width: 400px;
+	background-color: gray;*/
+	width: 95%;
+	display: none;
+	border: 2px solid #dedede;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: white;
+  max-height: 350px;
+  overflow: auto;
+}
+
+.newDiv{
+
+ /* width: 95%;
+  display: none;*/
+  border: 2px solid #dedede;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  /*background-color: white;*/
+  max-height: 350px;
+  overflow: auto;
+  margin-bottom: 5px;
+}
+
+.time-right {
+    float: right;
+    color: black;
+}
+
+#private_zone{
+	width: 100%;
+	/*display: none;*/
+	border: 2px solid #dedede;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: white;
+    overflow-y: auto;
+	max-height: 350px;
+}
+
+#public_messages{
+	/*overflow-x: hidden;*/
+	//overflow-y: auto;
+	max-height: 350px;
+}
+
+#credentials_div{
+  float: left;
+  width: 300px; 
+  margin-top: 50px;
+}
+
+#profil_photo_div{
+  text-align: center;
+  width: 200px; 
+  margin-left: 320px;
+}
+
+#profil_photo_cadre{
+  width: 200px;
+  height: 220px;
+  border: 2px solid;
+}
+
+#upload_profil_photo{
+  /*margin-left: 20px;*/
+}
+
+#login_div{
+  margin-top: 10px;
+  float: right
+}

@@ -1,0 +1,8 @@
+applications:
+- name: chat_app_test
+  memory: 512M
+  instances: 2
+  services:
+  - redis_chatter
+
+
